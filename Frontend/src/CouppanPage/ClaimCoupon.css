@@ -1,0 +1,234 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.claim-container {
+    text-align: center;
+    margin: 20px;
+}
+
+.butt {
+    position: absolute;  
+    top: 50%;  
+    left: 40%;  
+    transform: translate(-50%, -50%); 
+    background-color:palevioletred ;
+    width: 250px;
+}
+
+.butt:hover {
+    background-color:palevioletred;
+}
+
+.para{
+    font-size: large;
+    color: black;
+    padding: 15px;
+    position: relative;
+    top: 50px;
+    min-height: 20px; 
+    text-align: center;
+}
+.BackgroundImage{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -10;
+    top: 0px;
+    left: 0px;
+}
+.Admin{
+    position: absolute;  
+    top: 50%;  
+    left: 65%;  
+    transform: translate(-50%, -50%); 
+    font-size: 16px;
+    width: 250px;
+    color: Black;
+    border: none;
+    cursor: pointer;
+    background-color: yellow;
+}
+.Admin:hover{
+    background-color: yellow;
+}
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.modal-box {
+    background: white;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    height: 280px; 
+    display: flex;  
+    flex-direction: column;  
+    align-items: center; /* Ensures everything is centered */
+    justify-content: flex-start; /* Moves everything to the top */
+    gap: 10px;  
+   
+   
+    
+}
+
+.modal-box h2 {
+    margin-bottom: 5px; 
+    color: black;
+    position: relative;
+    bottom: 15px;
+}
+
+.modal-box input {
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 16px;
+    background: rgba(0, 0, 0, 0.5);
+    border-color: rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box; 
+   cursor: pointer;
+
+}
+
+.modal-box button {
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 14px;
+    margin-top: 35px;
+    position: relative;
+    top: 15px;
+}
+
+.modal-box button:hover {
+    background: #0056b3;
+}
+@media only screen and (max-width:350px){
+
+    .butt {
+        position: absolute;  
+        top: 50%;  
+        left: 50%;  
+        transform: translate(-50%, -50%); 
+        background-color:palevioletred ;
+        width: 150px;
+    }
+
+    .Admin{
+        position: absolute;  
+        top: 70%;  
+        left: 50%;  
+        transform: translate(-50%, -50%); 
+        font-size: 16px;
+        width: 150px;
+        color: Black;
+        border: none;
+        cursor: pointer;
+        background-color: yellow;
+    }
+}
+
+@media only screen and (min-width:350px) and (max-width:500px) {
+
+    .butt {
+        position: absolute;  
+        top: 50%;  
+        left: 50%;  
+        transform: translate(-50%, -50%); 
+        background-color:palevioletred ;
+        width: 250px;
+    }
+
+    .Admin{
+        position: absolute;  
+        top: 70%;  
+        left: 50%;  
+        transform: translate(-50%, -50%); 
+        font-size: 16px;
+        width: 250px;
+        color: Black;
+        border: none;
+        cursor: pointer;
+        background-color: yellow;
+    }
+
+
+}
+@media only screen and (min-width:501px) and (max-width:650px) {
+
+    .butt {
+        position: absolute;  
+        top: 50%;  
+        left: 30%;  
+        transform: translate(-50%, -50%); 
+        background-color:palevioletred ;
+        width: 180px;
+    }
+
+    .Admin{
+        position: absolute;  
+        top: 50%;  
+        left: 70%;  
+        transform: translate(-50%, -50%); 
+        font-size: 16px;
+        width: 180px;
+        color: Black;
+        border: none;
+        cursor: pointer;
+        background-color: yellow;
+    }
+    
+
+}
+@media only screen and (min-width:651px) and (max-width:970px) {
+
+    .butt {
+        position: absolute;  
+        top: 50%;  
+        left: 30%;  
+        transform: translate(-50%, -50%); 
+        background-color:palevioletred ;
+        width: 250px;
+    }
+
+    .Admin{
+        position: absolute;  
+        top: 50%;  
+        left: 70%;  
+        transform: translate(-50%, -50%); 
+        font-size: 16px;
+        width: 250px;
+        color: Black;
+        border: none;
+        cursor: pointer;
+        background-color: yellow;
+    }
+    
+
+}
