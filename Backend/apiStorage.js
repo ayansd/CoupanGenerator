@@ -11,7 +11,7 @@ dotenv.config();
 const app = express();
 const PORT = process.env.PORT || 5000;
 app.use(cors({
-    origin: ["http://localhost:5173", "https://coupan.netlify.app" ],// Change this to match your frontend port
+    origin: ["http://localhost:5173", "https://coupan.netlify.app", "https://coupangenerator.netlify.app/" ],// Change this to match your frontend port
     credentials: true
 }));
 app.use(express.json());
